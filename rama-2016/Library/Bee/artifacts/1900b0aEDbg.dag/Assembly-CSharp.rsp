@@ -374,6 +374,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/Camera/SmoothFollow.cs"
 "Assets/Scripts/Player/CharacterMovement.cs"
+"Assets/Scripts/Player/KnifeDestruction.cs"
+"Assets/Scripts/Player/TestJump.cs"
+"Assets/Scripts/Player/Werpon.cs"
 -langversion:9.0
 /deterministic
 /optimize-

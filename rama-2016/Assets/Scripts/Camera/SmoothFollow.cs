@@ -60,7 +60,7 @@ public class SmoothFollow : MonoBehaviour
         }
         if (CheckYMargin()) 
         {
-            targetY = Mathf.Lerp(transform.position.y, cameraTarget.position.y, xSmooth * Time.deltaTime);
+            targetY = Mathf.Lerp(transform.position.y, cameraTarget.position.y, ySmooth * Time.deltaTime);
         }
 
         targetX = Mathf.Clamp(targetX, minXandY.x, maxXandY.x);

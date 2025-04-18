@@ -9,7 +9,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{D0A506E3-A513-F1E2-AF3A-76546EBA160B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -63,6 +64,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\Camera\SmoothFollow.cs" />
+    <Compile Include="Assets\Scripts\Player\KnifeDestruction.cs" />
+    <Compile Include="Assets\Scripts\Player\Werpon.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
